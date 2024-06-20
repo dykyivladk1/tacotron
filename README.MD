@@ -19,6 +19,8 @@
 ## Introduction
 This repository contains an implementation of the Tacotron text-to-speech model from scratch. This implementation follows the structure and principles described in the original paper by Wang et al., with some modifications and improvements.
 
+**!Check out the generated samples in `samples` folder**
+
 
 ## Features
 - End-to-end text-to-speech synthesis
@@ -107,5 +109,15 @@ python source/inference.py --checkpoint-path weights/checkpoint_step165000.pth -
 ```
 
 The generated audio file is saved in `samples` folder.
+
+## References 
+
+Wang, Y., Skerry-Ryan, R. J., Stanton, D., Wu, Y., Weiss, R. J., Jaitly, N., Yang, Z., Xiao, Y., Chen, Z., Bengio, S., Le, Q., Agiomyrgiannakis, Y., Clark, R., & Saurous, R. A. (2017). Tacotron: Towards End-to-End Speech Synthesis. arXiv. [https://arxiv.org/abs/1703.10135](https://arxiv.org/abs/1703.10135)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
 
 **Thanks for attention!**
