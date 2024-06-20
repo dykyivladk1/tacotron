@@ -1,0 +1,6 @@
+polip 
+torch
+torchvision
+numpy
+matplotlib
+unicode
