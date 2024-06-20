@@ -44,20 +44,20 @@ pip install -r requirements.txt
 
 ## Model Structure
 
-<img src="assets/tacotron_structure.png" alt="Tacotron" style="width:100%;">
+<img src="assets/tacotron_structure.png" alt="Tacotron" style="width:70%;">
 
-1. Frontend
+1. **Frontend**
     - Text Normalization
     - Token Embedding
-2. Encoder 
+2. **Encoder**
     - CBHG(Convolutional Banks, HighWay Networks, Bidirectional GRU)
-3. Attention Mechanism
+3. **Attention Mechanism**
     - Bahdanau Attention
-4. Decoder
+4. **Decoder**
     - PreNet
     - Autoregressive GRU Layers
     - Linear Projection Layer
-5. Waveform Synthesis
+5. **Waveform Synthesis**
     - Griffin-Lim Algorithm of Neural Vocoder
 
 
