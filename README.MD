@@ -11,6 +11,7 @@
 - [Usage](#usage)
 - [Model Structure](#model-structure)
 - [Training](#training)
+- [Inference](#inference)
 - [References](#references)
 - [Licence](#license)
 
@@ -40,6 +41,26 @@ pip install -r requirements.txt
 - Numpy
 - Librosa
 - Matplotplib
+
+## Model Structure
+
+<img src="assets/tacotron_structure.png" alt="Tacotron" style="width:100%;">
+
+1. Frontend
+    - Text Normalization
+    - Token Embedding
+2. Encoder 
+    - CBHG(Convolutional Banks, HighWay Networks, Bidirectional GRU)
+3. Attention Mechanism
+    - Bahdanau Attention
+4. Decoder
+    - PreNet
+    - Autoregressive GRU Layers
+    - Linear Projection Layer
+5. Waveform Synthesis
+    - Griffin-Lim Algorithm of Neural Vocoder
+
+
 
 ## Usage
 
@@ -71,7 +92,7 @@ python source/split.py --metadata metadata.txt
 
 The `metadata.txt` is the file, containing the indexes of all files.
 
-#### Training the model
+#### Training
 
 ```bash
 python source/train.py 
