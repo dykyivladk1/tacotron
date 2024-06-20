@@ -76,12 +76,15 @@ The `metadata.txt` is the file, containing the indexes of all files.
 ```bash
 python source/train.py 
 ```
+For configuring the training parameters, change the `config/config.yaml` and for setting different number of epochs, change the variable `EPOCHS` to a desired number.
+
 
 #### Inference the model 
 
 ```bash
-python source/inference.py
+python source/inference.py --checkpoint-path weights/checkpoint_step165000.pth --text "Thanks for your attention"
 ```
 
+The generated audio file is saved in `samples` folder.
 
 **Thanks for attention!**
