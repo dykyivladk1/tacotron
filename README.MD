@@ -1,4 +1,5 @@
-![Tacotron](assets/Tacotron.png)
+<img src="assets/Tacotron.png" alt="Tacotron" style="width:100%;">
+
 
 # Tacotron Implementation
 
