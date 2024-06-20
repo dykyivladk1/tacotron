@@ -31,7 +31,7 @@ This repository contains an implementation of the Tacotron text-to-speech model 
 Clone the repository, and install the required dependencies:
 
 ```bash
-git clone
+git clone https://github.com/dykyivladk1/tacotron.git
 cd tacotron
 pip install -r requirements.txt
 ```
