@@ -19,7 +19,7 @@
 ## Introduction
 This repository contains an implementation of the Tacotron text-to-speech model from scratch. This implementation follows the structure and principles described in the original paper by Wang et al., with some modifications and improvements.
 
-**!Check out the generated samples in `samples` folder**
+**! Check out the generated audios in `samples` folder**
 
 
 ## Features
