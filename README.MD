@@ -114,6 +114,14 @@ The generated audio file is saved in `samples` folder.
 
 Wang, Y., Skerry-Ryan, R. J., Stanton, D., Wu, Y., Weiss, R. J., Jaitly, N., Yang, Z., Xiao, Y., Chen, Z., Bengio, S., Le, Q., Agiomyrgiannakis, Y., Clark, R., & Saurous, R. A. (2017). Tacotron: Towards End-to-End Speech Synthesis. arXiv. [https://arxiv.org/abs/1703.10135](https://arxiv.org/abs/1703.10135)
 
+
+
+
+Check out my Medium article on [Full Text-to-Speech Synthesis with Tacotron](https://medium.com/@bigamot01/full-text-to-speech-synthesis-with-tacotron-359790e97db8) for an in-depth explanation and tutorial.
+
+![Read my Medium article](https://img.shields.io/badge/Medium-Read%20my%20article-blue?style=for-the-badge&logo=medium)
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
