@@ -1,4 +1,6 @@
 # config adapted from https://github.com/ttaoREtw/Tacotron-pytorch
+
+audio:
     num_mels: 80
     num_freq: 1025
     sample_rate: 22050

@@ -105,6 +105,7 @@ For configuring the training parameters, change the `config/config.yaml` and for
 #### Inference the model 
 
 ```bash
+pip install -r requirements-inference.txt
 python source/inference.py --checkpoint-path weights/checkpoint_step165000.pth --text "Thanks for your attention"
 ```
 
