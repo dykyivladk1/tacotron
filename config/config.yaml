@@ -12,7 +12,6 @@ audio:
     power: 1.5
     griffin_lim_iters: 60
 
-
 model:
     optimizer:
         type: "Adam"
