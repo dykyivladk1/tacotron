@@ -13,7 +13,7 @@
 - [Training](#training)
 - [Inference](#inference)
 - [References](#references)
-- [Licence](#license)
+
 
 
 ## Introduction
