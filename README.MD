@@ -116,12 +116,6 @@ Wang, Y., Skerry-Ryan, R. J., Stanton, D., Wu, Y., Weiss, R. J., Jaitly, N., Yan
 
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-
 
 Check out my Medium article on [Full Text-to-Speech Synthesis with Tacotron](https://medium.com/@bigamot01/full-text-to-speech-synthesis-with-tacotron-359790e97db8) for an in-depth explanation and tutorial.
 
